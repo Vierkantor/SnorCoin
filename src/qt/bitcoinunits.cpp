@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("SmallChange");
-    case mBTC: return QString("Milli-SmallChange (1 / 1,000)");
-    case uBTC: return QString("Micro-SmallChange (1 / 1,000,000)");
+    case BTC: return QString("SnorCoin");
+    case mBTC: return QString("Milli-SnorCoin (1 / 1,000)");
+    case uBTC: return QString("Micro-SnorCoin (1 / 1,000,000)");
     default: return QString("???");
     }
 }
